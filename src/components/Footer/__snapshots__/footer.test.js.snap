@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EpisodeItem component should render episode details page 1`] = `
+<div>
+  <section
+    id="footer-block"
+  >
+    <article
+      id="footer-description"
+    >
+      <p>
+         Test task.
+      </p>
+    </article>
+  </section>
+</div>
+`;
+
+exports[`Footer component should render footer 1`] = `
+<div>
+  <section
+    id="footer-block"
+  >
+    <article
+      id="footer-description"
+    >
+      <p>
+         Test task.
+      </p>
+    </article>
+  </section>
+</div>
+`;

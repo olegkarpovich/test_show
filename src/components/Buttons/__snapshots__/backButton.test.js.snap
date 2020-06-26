@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackButton component should render back button 1`] = `
+<div>
+  <button
+    id="back-to-show-button"
+  >
+    Back
+  </button>
+</div>
+`;

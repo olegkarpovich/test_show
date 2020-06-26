@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EpisodesList component should render episode details page 1`] = `
+<div>
+  <section
+    class="ep-blocks"
+  >
+    <header
+      class="ep-block ep-block-header"
+    >
+      <div
+        class="ep-season-number"
+      >
+        Number
+      </div>
+      <div
+        class="ep-season"
+      >
+        Season
+      </div>
+      <div
+        class="ep-number"
+      >
+        Number
+      </div>
+      <div
+        class="ep-date"
+      >
+        Date
+      </div>
+      <div
+        class="ep-time"
+      >
+        Time
+      </div>
+      <div
+        class="ep-date-time"
+      >
+        Date
+      </div>
+      <div
+        class="ep-name"
+      >
+        Name
+      </div>
+      <div
+        class="ep-score"
+      >
+        Score
+      </div>
+    </header>
+    <article
+      class="ep-block"
+    >
+      <div
+        class="ep-season-number"
+      >
+        s1-e1
+      </div>
+      <div
+        class="ep-season"
+      >
+        1
+      </div>
+      <div
+        class="ep-number"
+      >
+        1
+      </div>
+      <div
+        class="ep-date"
+      >
+        2016-04-04
+      </div>
+      <div
+        class="ep-time"
+      >
+        18:00
+      </div>
+      <div
+        class="ep-date-time"
+      >
+        2016-04-04 18:00
+      </div>
+      <div
+        class="ep-name"
+      >
+        <a
+          href="/season/1/episode/1"
+        >
+           
+          Escape from Monster Island
+        </a>
+         
+      </div>
+      <div
+        class="ep-score"
+      >
+        -
+      </div>
+    </article>
+  </section>
+</div>
+`;
+
+exports[`EpisodesList component should render episodes list 1`] = `
+<div>
+  <section
+    class="ep-blocks"
+  >
+    <header
+      class="ep-block ep-block-header"
+    >
+      <div
+        class="ep-season-number"
+      >
+        Number
+      </div>
+      <div
+        class="ep-season"
+      >
+        Season
+      </div>
+      <div
+        class="ep-number"
+      >
+        Number
+      </div>
+      <div
+        class="ep-date"
+      >
+        Date
+      </div>
+      <div
+        class="ep-time"
+      >
+        Time
+      </div>
+      <div
+        class="ep-date-time"
+      >
+        Date
+      </div>
+      <div
+        class="ep-name"
+      >
+        Name
+      </div>
+      <div
+        class="ep-score"
+      >
+        Score
+      </div>
+    </header>
+    <article
+      class="ep-block"
+    >
+      <div
+        class="ep-season-number"
+      >
+        s1-e1
+      </div>
+      <div
+        class="ep-season"
+      >
+        1
+      </div>
+      <div
+        class="ep-number"
+      >
+        1
+      </div>
+      <div
+        class="ep-date"
+      >
+        2016-04-04
+      </div>
+      <div
+        class="ep-time"
+      >
+        18:00
+      </div>
+      <div
+        class="ep-date-time"
+      >
+        2016-04-04 18:00
+      </div>
+      <div
+        class="ep-name"
+      >
+        <a
+          href="/season/1/episode/1"
+        >
+           
+          Escape from Monster Island
+        </a>
+         
+      </div>
+      <div
+        class="ep-score"
+      >
+        -
+      </div>
+    </article>
+  </section>
+</div>
+`;

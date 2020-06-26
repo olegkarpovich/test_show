@@ -1,0 +1,83 @@
+.ep-blocks{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+
+  .ep-block-header {
+    color: #FFF;
+    background: #337AB7;
+    font-weight: bold;
+    border: 1px solid #1a4a73;
+    text-transform: uppercase;
+  }
+
+  .ep-block{
+    display: flex;
+    width: 100%;
+    margin-bottom: 0px;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    text-align: left;
+
+    .ep-season-number,
+    .ep-date-time {
+      display: none;
+    }
+
+    div {
+      width: 40%;
+      font-size: 15px;
+      border: none;
+      font-family: Verdana, sans-serif;
+      border-bottom: 1px solid #337AB7;
+      padding: 5px 1%;
+
+      a {
+        color: #337AB7;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 568px) {
+  .ep-block-header {
+    text-transform: none !important;
+  }
+
+  .ep-block {
+    div {
+      font-size: 10px !important;
+      white-space: nowrap !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+    }
+
+    .ep-score,
+    .ep-number,
+    .ep-season,
+    .ep-date,
+    .ep-time {
+      display: none;
+    }
+
+    .ep-season-number {
+      width: 20% !important;
+    }
+
+    .ep-season-number,
+    .ep-date-time {
+      display: inline-block !important;
+    }
+
+    .ep-name {
+      flex-shrink: 0;
+    }
+  }
+}

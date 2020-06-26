@@ -1,0 +1,21 @@
+#header-block {
+  width: 100%;
+  height: 40px;
+
+  #home-button {
+    position: absolute;
+    left: 40px;
+    width: 80px;
+    background: #337AB7;
+    color: #fff;
+    vertical-align: middle;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #home-button:hover {
+    background: #00FFFF;
+    cursor: pointer;
+  }
+}

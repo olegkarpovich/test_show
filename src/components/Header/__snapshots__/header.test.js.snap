@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EpisodeItem component should render episode details page 1`] = `
+<div>
+  <nav
+    id="header-block"
+  >
+    <a
+      aria-current="page"
+      class="active"
+      href="/"
+      id="home-button"
+    >
+      Home
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`Header component should render header 1`] = `
+<div>
+  <nav
+    id="header-block"
+  >
+    <a
+      aria-current="page"
+      class="active"
+      href="/"
+      id="home-button"
+    >
+      Home
+    </a>
+  </nav>
+</div>
+`;
